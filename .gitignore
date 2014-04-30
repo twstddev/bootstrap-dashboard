@@ -1,0 +1,7 @@
+**/*.swp
+node_modules/
+**/vendorlibs/
+**/*.log
+dist/
+build/
+.sass-cache/
