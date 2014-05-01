@@ -35,7 +35,9 @@ module.exports = {
 	vendorcss : {
 		expand : true,
 		cwd : "<%= src %>/vendorlibs",
-		src : [],
+		src : [
+			"bootstrap/bootstrap.css"
+		],
 		dest : "<%= build %>/vendorlibs"
 	},
 
