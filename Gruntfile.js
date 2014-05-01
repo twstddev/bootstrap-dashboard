@@ -25,7 +25,8 @@ module.exports = function( grunt ) {
 		"copy:downloads",
 		"copy:vendorjs",
 		"copy:vendorcss",
-		"assemble",
+		"assemble:pages",
+		"assemble:general",
 		"compass",
 		"concat:js"
 	] );

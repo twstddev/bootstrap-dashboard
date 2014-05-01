@@ -12,5 +12,18 @@ module.exports = {
 			src : "*.hbs", 
 			dest : "<%= build %>/"
 		} ]
+	},
+
+	general : {
+		options : {
+			layout : "<%= src %>/templates/layouts/general.hbs"
+		},
+
+		files : [ {
+			expand : true,
+			cwd : "<%= src %>/templates/general/",
+			src : "*.hbs", 
+			dest : "<%= build %>/"
+		} ]
 	}
 };
