@@ -27,7 +27,8 @@ module.exports = {
 			"jquery/jquery.js",
 			"jquery-migrate/jquery-migrate.js",
 			"selectivizr/selectivizr.js",
-			"modernizr/modernizr.js"
+			"modernizr/modernizr.js",
+			"bootstrap/bootstrap.js"
 		],
 		dest : "<%= build %>/vendorlibs"
 	},
