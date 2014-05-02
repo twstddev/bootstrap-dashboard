@@ -41,6 +41,15 @@ module.exports = {
 		dest : "<%= build %>/vendorlibs"
 	},
 
+	vendorfonts : {
+		expand : true,
+		cwd : "<%= src %>/vendorlibs/bootstrap",
+		src : [
+			"glyphicons-*"
+		],
+		dest : "<%= build %>/vendorlibs/fonts/"
+	},
+
 	dist : {
 		expand: true,
 		cwd : "<%= build %>",
